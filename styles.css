@@ -179,7 +179,7 @@ body {
 
 /* Navigation - Preto/cinza escuro */
 .navbar {
-  background: rgba(13, 13, 13, 0.95);
+  background: rgba(163, 155, 155, 0.95);
   backdrop-filter: blur(10px);
   z-index: 1000;
   transition: all 0.3s ease;
@@ -187,7 +187,7 @@ body {
 }
 
 .navbar.scrolled {
-  background: rgba(13, 13, 13, 0.98);
+  background: rgba(0, 0, 0, 0.98);
   box-shadow: 0 2px 20px rgba(13, 13, 13, 0.2);
 }
 
@@ -223,7 +223,7 @@ body {
 /* Responsive adjustments for logo */
 @media (max-width: 575px) {
   .logo-image {
-    height: 32px;
+    height: 130px;
   }
 
   .nav-logo h2 {
@@ -1551,7 +1551,7 @@ section {
   }
 
   .navbar {
-    background: rgba(30, 58, 95, 0.95);
+    background: rgba(32, 61, 99, 0.95);
   }
 
   .hero {
