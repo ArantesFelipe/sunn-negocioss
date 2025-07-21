@@ -9,38 +9,40 @@
 </head>
 <body>
     <!-- Navegação -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-    <a href="index.html">
-        <img src="assets/sunn-logo.png" alt="Sunn Negócios Logo" class="logo-image">
-        <h2>Sunn Negócios</h2>
-    </a>
-</div>
-            <ul class="nav-menu" id="nav-menu">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Início</a>
-                </li>
-                <li class="nav-item">
-                    <a href="index.html#about" class="nav-link">Sobre Nós</a>
-                </li>
-                <li class="nav-item">
-                    <a href="index.html#expertise" class="nav-link">Especialidades</a>
-                </li>
-                <li class="nav-item">
-                    <a href="index.html#portfolio" class="nav-link">Portfólio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="index.html#contact" class="nav-link">Contato</a>
-                </li>
-            </ul>
-            <div class="nav-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <div class="nav-logo-center">
+            <a href="index.html">
+                <img src="assets/sunn-logo.png" alt="Sunn Negócios Logo" class="logo-image">
+                <h2>Sunn Negócios</h2>
+            </a>
         </div>
-    </nav>
+        
+        <div class="nav-menu-button" id="nav-menu-button">
+            <span class="menu-icon">☰</span>
+            <span class="menu-text">Menu</span>
+        </div>
+        
+        <div class="nav-dropdown" id="nav-dropdown">
+            <a href="imoveis-portfolio.html" class="dropdown-item">
+                <span class="dropdown-icon">🏠</span>
+                Imóveis
+            </a>
+            <a href="solar-portfolio.html" class="dropdown-item">
+                <span class="dropdown-icon">☀️</span>
+                Energia Solar
+            </a>
+            <a href="marketing-portfolio.html" class="dropdown-item">
+                <span class="dropdown-icon">📈</span>
+                Marketing
+            </a>
+            <a href="https://wa.me/5511999999999" class="dropdown-item whatsapp-item" target="_blank">
+                <span class="dropdown-icon">💬</span>
+                WhatsApp
+            </a>
+        </div>
+    </div>
+</nav>
 
     <!-- Hero da Landing Page -->
     <section class="hero" style="min-height: 60vh;">
