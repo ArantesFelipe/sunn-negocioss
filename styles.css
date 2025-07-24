@@ -1966,3 +1966,13 @@ section {
     overflow-y: auto;
   }
 }
+
+/* Imagens adicionadas responsivamente */
+.blog-image img,
+.case-study-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
